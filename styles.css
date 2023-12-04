@@ -1,0 +1,43 @@
+header {
+    color: #119400;
+    text-align: center;
+    background-color: black;
+    margin-right: 370px;
+    margin-left: 370px;
+}
+
+
+nav {
+    list-style-type: none;
+    color:blue;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    margin-right: 600px;
+    color: blue;
+    background-color: black;
+}
+
+#fond{
+    height : 100vh;
+    width : 100vw;
+    position : fixed;
+    top:0px;
+    left : 0px;
+    z-index: -10;
+    display: flex;
+    float: left;
+}
+
+iframe {
+    display: flex;
+    float: right;
+}
